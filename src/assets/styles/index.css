@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: start;
+    margin: 20px 0px;
+}
+
+.container-login {
+    display: grid;
+    justify-content: center;
+}
+
+.container-login h2 {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.container-login label {
+    margin-bottom: 3px;
+}
+
+.container-login input {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 7px;
+    cursor: pointer;
+    color: white;
+    background: black;
+    font-size: 15px;
+}
+
+Link {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: red;
+}
+
+.registered {
+    color: red;
+}
+
+.container-logout {
+    display: flex;
+    justify-content: end;
+}
